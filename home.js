@@ -10,3 +10,4 @@ function search() {
         alert("Please enter a search query.");
     }
 }
+
