@@ -102,6 +102,8 @@ font-weight: 600;
     width: 100%;
     margin-top: 50px;
     padding-top: 30px;
+    border-bottom: 0.5px gray solid;
+
 }
 .ground1{
     height: 430px;
@@ -127,21 +129,68 @@ font-weight: 600;
 .ground button{
 margin: 40px 500px;
 }
+.ground img{
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-  }
+    transition: transform 0.5s ease-in-out;
+
+}
+.ground img:hover{
+    transform: scale(1.07);
+}
+
+.product{
+    height: 750px;
+    width: 100%;
+    padding-top: 40px;
+
+}
+.product1{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+
+
+}
+.product1A{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-left: rgb(141, 143, 141) 0.5px solid;
+    margin-top: 50px;
+
+    
+
+}
+.product1A img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+.product1A img:hover{
+    transform: scale(1.08);
+}
+.product h6{
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(59, 27, 27);
+}
+.product1A p{
+
+    font-size: 15px;
+    padding-top: 10px;
+}
+
   
   #testimonials {
-    background-color: #fff;
+    background-color: #d1cecc;
     padding: 40px;
     text-align: center;
     max-width: 1000px;
     margin: 0 auto;
     overflow: hidden;
+    margin-top: 60px;
   }
   
   #testimonials h2 {
@@ -172,7 +221,8 @@ body {
     border-radius: 50px;
     width: 100px;
     height: 100px;
-    margin-bottom: 15px;
+    margin-left: 200px;
+    text-align: center;
   }
   
   .quote {
@@ -187,67 +237,59 @@ body {
   }
 
 
-  .success-stories-section {
-    padding: 20px;
-}
 
-.success-story {
-    margin-bottom: 40px;
-}
-
-/* CTA Styles */
-.cta-newsletter, .cta-community {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin-top: 20px;
+  .story{
+    height: 150px;
+    width: 100%;
+    margin-top: 50px;
     text-align: center;
-}
-
-.cta-newsletter h3, .cta-community h3 {
-    color: #333;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.cta-newsletter p, .cta-community p {
-    color: #666;
-    font-size: 1em;
-    margin-bottom: 20px;
-}
-
-.cta-newsletter form, .cta-community .button {
+    align-content: center;
+    border-top:0.5px gray solid;
+  }
+  .story1{
+    height: 450px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    column-gap: 20px;
+    padding-top: 20px;
+    justify-content: center;
 
-.cta-newsletter input[type="email"] {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    width: 80%;
-    max-width: 400px;
-    margin-bottom: 10px;
-}
+  }
+  .story1C{
+    height: 400px;
+    width: 46%;
+    border: 1px solid black;
+    padding-top: 20px;
+    border-radius: 15px;
+    background:radial-gradient(white,rgb(189, 187, 187));
+  }
+  .story1C h3{
+font-size: 24px;
+text-align: center;
+border-bottom:0.5px rgb(248, 246, 246) solid;
+  }
+  .story1C p{
+    font-size: 20px;
+    margin-top: 15px;
+    padding-left: 15px;
+    
+  }
 
-.cta-newsletter button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1em;
-}
 
-.cta-newsletter button:hover {
-    background-color: #0056b3;
-}
+
+
+ .cta-community{
+    height: 150px;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    align-content: center;
+    border: 0.5px solid greenyellow;
+ }
 
 .cta-community .button {
-    padding: 10px 20px;
+
+    padding: 10px 30px;
     background-color: #28a745;
     color: #fff;
     text-decoration: none;
@@ -259,12 +301,6 @@ body {
     background-color: #218838;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .cta-newsletter input[type="email"], .cta-newsletter button, .cta-community .button {
-        width: 100%;
-    }
-}
 
 
 
@@ -325,7 +361,9 @@ footer {
     margin: 10px;
     cursor: pointer;
 }
-
+.icon a:hover{
+    
+}
 
 
 
