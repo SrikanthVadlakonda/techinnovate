@@ -5,31 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="home.css">
-    <title>TechInnovate</title>
+    <title>TechInnovate Home</title>
 
 </head>
 <body>
-    <div class="container">
-    <header>
-        <div class="logo">
-            <img src="/images/logo.png" height="100px" width="250px">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="#resources">Resources</a></li>
-                <li><a href="#innovation">Innovation</a></li>
-                <button> <a href="#">Subscribe</a></button>
 
-            </ul>
-            
- </nav>
- 
- 
-    </header>
+        <div class="container">
+            <header>
+                <div class="logo">
+                    <img src="/images/logo.png" alt="Logo" height="100px" width="200px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li>
+                            <a href="#news">News <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="technews.html">News</a></li>
+                                <li><a href="#community">Tech Community</a></li>
+                                <li><a href="#tools">Tech Tools</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#community">Community</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                        <li><a href="#innovation">Innovation</a></li>
+    
+                        <a href="#" id="btn">Subscribe</a>
+    
+                    </ul>
+                </nav>
+            </header>
     <main>
         <div class="brief">
             <h1 style="font-size: 40px;">Welcome to TechInnovate</h1><br>
@@ -78,7 +84,7 @@
                    <p style="font-size: 23px;">Initially developed for Bitcoin, blockchain technology is finding new applications beyond cryptocurrency. Industries are adopting blockchain for its ability to provide transparency, enhance security, and reduce fraud. Uses include tracking the provenance of goods in supply chains, providing tamper-proof voting systems, and managing secure medical records.</p><br><br>
                </div>
             </div>
-            <button><a href="/images/innovations.html">Explore More</a></button>
+            <a href="/innovations.html" id="link">Explore More</a><br>
      </div>
 
      <div class="product">
@@ -104,7 +110,7 @@
 
      </div>
      <br>
-     <button style="margin-left: 480px; margin-top: 30px;"><a href="Productshowcase.html">Explore More</a></button>
+     <a href="Productshowcase.html" id="link">Explore More</a>
     </div>
 
      <section id="testimonials">
@@ -183,7 +189,7 @@
             <p><b>-Outcome: </b> tool is now being used in hospitals across the country, enhancing patient care and saving lives. Dr. Smith's story demonstrates how tech enthusiasts can drive innovation in critical fields.</p>
         </div>
         </div>
-        <button style="margin-left: 600px;"><a href="#">More Stories</a></button>
+        <a href="#" id="link">More Stories</a>
       
 
 
@@ -194,44 +200,54 @@
             <a href="/community" class="button">Join Now</a>
         </div>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section about" style="text-align: left;">
-                <h3>About TechInnovate</h3>
-                <p>TechInnovate is your go-to platform for the latest news, reviews, and insights in the world of technology.</p>
-            <div class="icons">
-                <p>Follow us on...</p><br>
-                <a ref="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a ref="#"><i class="fa-brands fa-instagram"></i></a>
-                <a ref="#"><i class="fa-brands fa-twitter"></i></a>
-                <a ref="#"><i class="fa-brands fa-linkedin-in"></i></a>
+  
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section about" style="text-align: left;">
+                    <h3>About TechInnovate</h3>
+                    <p>TechInnovate is your go-to platform for the latest news, reviews, and insights in the world of technology.</p>
+                <div class="icons">
+                    <p>Follow us on...</p><br>
+                    <a ref="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a ref="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a ref="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a ref="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#leaarning">Learning</a></li>
+                        <li><a href="#innovation">Innovation</a></li>
+        
+                    </ul>
+                </div>
+                <div class="footer-section links">
+                    <h3>Tech Topics</h3>
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Tech tools</a></li>
+        
+                    </ul>
+                </div>
+                <div class="footer-section contact" style="text-align: left;">
+                    <h3>Contact Us</h3>
+                    <p>Email: contact@techinnovate.com</p>
+                    <p>Phone: +123-456-7890</p>
+                    <p>Address: 123 Tech Street, Innovate City, IN 12345</p>
+                </div>
+                
             </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechInnovate. All rights reserved.</p>
             </div>
-            <div class="footer-section links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#community">Community</a></li>
-                    <li><a href="#leaarning">Learning</a></li>
-                    <li><a href="#innovation">Innovation</a></li>
-    
-                </ul>
-            </div>
-            <div class="footer-section contact" style="text-align: left;">
-                <h3>Contact Us</h3>
-                <p>Email: contact@techinnovate.com</p>
-                <p>Phone: +123-456-7890</p>
-                <p>Address: 123 Tech Street, Innovate City, IN 12345</p>
-            </div>
-            
+        </footer>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 TechInnovate. All rights reserved.</p>
-        </div>
-    </footer>
-    </div>
-    <script src="home.js"></script>
-</body>
-</html>
+        <script src="home.js"></script>
+    </body>
+    </html>
