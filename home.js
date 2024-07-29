@@ -1,5 +1,5 @@
 function signUp() {
-    alert("Thank you for signing up! Stay tuned for updates.");
+    alert("Welcom to Tech Innovate! Stay tuned for updates.");
 }
 
 function search() {

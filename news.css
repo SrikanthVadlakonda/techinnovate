@@ -21,6 +21,19 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+top: 0;
+animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+from {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
 }
 
 nav ul {
@@ -97,13 +110,33 @@ nav ul li:hover .sub-menu {
     color: white;
 
 }
+#logout{
+    margin-left: 80px;
+    text-decoration: none;
+    color: rgb(247, 243, 243);
+    background-color: rgb(255, 17, 9);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#logout:hover{
+    background-color: rgb(9, 136, 240);
+    color: white;
+
+}
 .news{
+    transform: translateX(-100%);
+    animation: slideIn 2s forwards;
     height: 150px;
     width: 100%;
     align-content: center;
     text-align: center;
     color: rgb(44, 43, 43);
     margin-top: 50px;
+}
+@keyframes slideIn{
+    to{
+        transform: translateX(0);
+    }
 }
 
 .trending{
@@ -157,7 +190,8 @@ nav ul li:hover .sub-menu {
      }
 
      .zoom-image:hover{
-        transform: scale(1.1);
+        transform: scale(1.05);
+        transition: 1s;
     }
 
 
